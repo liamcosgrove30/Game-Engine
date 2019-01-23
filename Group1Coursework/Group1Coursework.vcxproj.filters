@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{09eec48f-ca5d-4073-9daf-1b7df6995a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Uti">
+      <UniqueIdentifier>{e48670a9-683c-438c-87f3-592c77598a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{59161dc7-e74a-4b1b-aa3d-03af4f64fcfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{82260b28-76fd-4d42-bac4-345237032198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Materials">
+      <UniqueIdentifier>{953aab50-41c8-453d-bd80-2bc709276da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Materials">
+      <UniqueIdentifier>{683fcf06-f928-44b4-a277-52bdff39fcb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Materials\Factory">
+      <UniqueIdentifier>{d4b68f8a-9094-47d6-967a-dd54c723b6b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Materials\Factory">
+      <UniqueIdentifier>{887544bd-321f-419b-8e04-550c0f2b833b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Materials\Factory\Material Factory">
+      <UniqueIdentifier>{cfdb5114-4b7e-4407-89e7-e13974545388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{a7d0b83b-5740-40e3-849b-0ad4a1dbf6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools\Tool Qualities">
+      <UniqueIdentifier>{d9a0d1f8-6f66-4d83-8afd-c984614b655f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapons">
+      <UniqueIdentifier>{0656a66a-74c5-412a-8fb5-203617fae2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapons\Weapon Quality">
+      <UniqueIdentifier>{233fbf34-f022-4bc4-94e0-e9195e86c20d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CratftingState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MineState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ArenaState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Wood.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Steel.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Materials\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialFac.cpp">
+      <Filter>Source Files\Materials\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Fac.cpp">
+      <Filter>Source Files\Materials\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArenaState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftingState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MineState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Uti</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Uti</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Wood.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Steel.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\Uti</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialFac.h">
+      <Filter>Header Files\Materials\Factory\Material Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Materials\Factory\Material Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Fac.h">
+      <Filter>Header Files\Materials\Factory\Material Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractTool.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDecorator.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Axe.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodenQuality.h">
+      <Filter>Header Files\Tools\Tool Qualities</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickaxe.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneQuality.h">
+      <Filter>Header Files\Tools\Tool Qualities</Filter>
+    </ClInclude>
+    <ClInclude Include="SteelQuality.h">
+      <Filter>Header Files\Tools\Tool Qualities</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractWeapon.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponDecorator.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sharp.h">
+      <Filter>Header Files\Weapons\Weapon Quality</Filter>
+    </ClInclude>
+    <ClInclude Include="Blunt.h">
+      <Filter>Header Files\Weapons\Weapon Quality</Filter>
+    </ClInclude>
+    <ClInclude Include="Rusty.h">
+      <Filter>Header Files\Weapons\Weapon Quality</Filter>
+    </ClInclude>
+    <ClInclude Include="Spear.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
